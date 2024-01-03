@@ -49,7 +49,8 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
 
-    }waypoint_topmenu();
+    }
+    // waypoint_topmenu();
 
     // const waypoint = new Waypoint({
     //     element: document.getElementById('story'),
