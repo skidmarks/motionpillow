@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const bodyEl = document.querySelector('body');
 
     // intro active motion
-    const introLayer = document.querySelector('.intro');
-    introLayer.classList.add('active');
+    // const introLayer = document.querySelector('.intro');
+    // introLayer.classList.add('active');
 
 
     // top menu
