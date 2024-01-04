@@ -125,10 +125,11 @@ body img{vertical-align:top;}
 .intro .logo_layer img{width:52.5%;transform:scale(0.6);}
 .intro .text_layer{position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden;}
 .intro .text_layer .text_area{position:absolute;bottom:20.8%;left:7%;width:90%;opacity:0;}
-.intro .text_layer .text_area span{display:block;font-size:3.5vw;letter-spacing:-0.007em;line-height:1.35em;color:#FFB300;font-weight:600;}
+.intro .text_layer .text_area span{display:block;font-size:3vw;letter-spacing:-0.007em;line-height:1.44em;color:#fff;font-weight:400;}
 .intro .text_layer .text_area h2{color:#fff;font-weight:800;font-size:10vw;letter-spacing:-0.005em;line-height:1.35em;}
 .intro .text_layer .text_area p{padding-top:1.5em;}
-.intro .text_layer .text_area p a{position:relative;display:flex;justify-content:center;align-items:center;box-sizing:border-box;color:#fff;text-decoration:none;font-size:4vw;font-weight:700;padding:0.8em 1em;width:33%;border:1px solid #FFB300;border-radius:2em;z-index:200;background-color:#FFB300;}
+.intro .text_layer .text_area p a{position:relative;display:inline-flex;justify-content:center;align-items:center;margin-right:3%;box-sizing:border-box;color:#fff;text-decoration:none;font-size:4vw;font-weight:700;padding:0.8em 1em;width:33%;border-radius:2em;z-index:200;background-color:#FFB300;}
+.intro .text_layer .text_area p a:last-child{background-color:rgba(255, 255, 255, 0.20);border:0;}
 
 @keyframes expander {
   0% {
@@ -260,7 +261,7 @@ section .inner{padding:0 7%;background:transparent;}
 
 #key_feature{background-color:#fff;}
 
-#app_info{background-color:rgba(255, 179, 0, 1);}
+#app_info{background-color:#FFB300;}
 #app_info h2{position:relative;}
 #app_info h2 span{width:86%;position:absolute;top:33%;left:50%;transform:translateX(-50%);display:flex;justify-content:space-between;}
 #app_info h2 span a{display:inline-block;width:48.837209%;}
@@ -436,8 +437,8 @@ footer div{text-align:center;font-size:11px;line-height:1.4em;}
 	.m_btn{font-size:24px;}		
 }
 
-.smart_home{position:fixed;top:70%;right:5%;width:15.6%;z-index:200;max-width:156px;}
-.ces_best_innov{position:fixed;top:73%;right:11%;width:0;z-index:199;max-width:294px;transition:all 0.5s;}
+.smart_home{position:fixed;top:70%;right:5%;width:15.6%;z-index:210;max-width:156px;}
+.ces_best_innov{position:fixed;top:73%;right:11%;width:0;z-index:209;max-width:294px;transition:all 0.5s;}
 .ces_best_innov.active{width:29.4%;max-width:294px;}
 
 @media (min-width:600px){
