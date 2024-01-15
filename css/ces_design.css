@@ -485,7 +485,7 @@ footer div{text-align:center;font-size:11px;line-height:1.4em;}
 .notice_delay{width:90%;position:fixed;top:50%;left:50%;transform:translate(-50%, -50%);max-width:800px;z-index:1000;}
 .notice_delay .btn_close_nt{border:0;background:0;position:absolute;top:0;right:0;padding:0 2.5%;line-height:1em;}
 .notice_delay .btn_close_nt:after{display:inline-block;content:'\00d7';font-size:10vw;line-height:1em;color:#fff;}
-@media (min-width:600px){
+@media (min-width:1000px){
   .notice_delay .btn_close_nt:after{font-size:60px}
 }
 
